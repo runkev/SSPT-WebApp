@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPT_Calculator", "SSPT_Calculator\SSPT_Calculator.csproj", "{DC99B6BC-E1B9-4648-8956-93C4242DFFB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC99B6BC-E1B9-4648-8956-93C4242DFFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC99B6BC-E1B9-4648-8956-93C4242DFFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC99B6BC-E1B9-4648-8956-93C4242DFFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC99B6BC-E1B9-4648-8956-93C4242DFFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5EA4690-737E-4140-9C08-7E10958A975F}
+	EndGlobalSection
+EndGlobal
