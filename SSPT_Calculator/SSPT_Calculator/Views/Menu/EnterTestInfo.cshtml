@@ -1,0 +1,63 @@
+﻿@model SSPT_Calculator.Models.TestInfo
+
+@{
+    ViewData["Title"] = "EnterTestInfo";
+}
+
+<h1>Enter Test Info</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EnterTestInfo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="weight" class="control-label">Average Weight per Passenger (185 minimum)</label>
+                <input asp-for="weight" class="form-control" />
+                <span asp-validation-for="weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pax" class="control-label">Number of Passengers</label>
+                <input asp-for="pax" class="form-control" />
+                <span asp-validation-for="pax" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="paxWeight" class="control-label"></label>
+                <input asp-for="paxWeight" class="form-control" />
+                <span asp-validation-for="paxWeight" class="text-danger"></span>
+            </div>*@
+             <div class="form-group">
+                <label asp-for="crewWeight" class="control-label">Average Weight per Crew Member (185 minimum)</label>
+                <input asp-for="crewWeight" class="form-control" />
+                <span asp-validation-for="crewWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="crew" class="control-label">Number of Crew Members</label>
+                <input asp-for="crew" class="form-control" />
+                <span asp-validation-for="crew" class="text-danger"></span>
+            </div>           
+            <div class="form-group">
+                <label asp-for="routeCOI" class="control-label">COI Route</label>
+                <input asp-for="routeCOI" class="form-control" />
+                <span asp-validation-for="routeCOI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="routeStability" class="control-label">Stability Route</label>
+                <input asp-for="routeStability" class="form-control" />
+                <span asp-validation-for="routeStability" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

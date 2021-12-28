@@ -1,0 +1,49 @@
+﻿@model SSPT_Calculator.Models.TestInfo
+
+@{
+    ViewData["Title"] = "VCGR";
+}
+
+<h1>VCGR</h1>
+
+<h4>TestInfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="VCGR">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="paxWeight" class="control-label">Passenger Test Weight (W)</label>
+                <input asp-for="paxWeight" class="form-control" />
+                <span asp-validation-for="paxWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxStand" class="control-label"></label>
+                <input asp-for="paxStand" class="form-control" />
+                <span asp-validation-for="crew" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxSit" class="control-label"></label>
+                <input asp-for="paxSit" class="form-control" />
+                <span asp-validation-for="crewWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="vcgr" class="control-label"></label>
+                <input asp-for="vcgr" class="form-control" />
+                <span asp-validation-for="routeCOI" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

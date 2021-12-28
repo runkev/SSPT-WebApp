@@ -1,6 +1,6 @@
 html {
   font-size: 14px;
-  background-color: dimgrey
+  
 }
 
 @media (min-width: 768px) {
@@ -16,5 +16,5 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: dimgrey
+    
 }
