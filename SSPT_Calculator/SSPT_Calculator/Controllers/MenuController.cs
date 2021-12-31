@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SSPT_Calculator.Models;
+
 
 namespace SSPT_Calculator.Controllers
 {
@@ -47,6 +49,13 @@ namespace SSPT_Calculator.Controllers
         public IActionResult TestSummary()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(TestInfo W)
+        {
+            W.paxWeight = W.weight * W.pax;
+            return View(W);
         }
     }
 }
