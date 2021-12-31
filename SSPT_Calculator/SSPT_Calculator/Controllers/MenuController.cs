@@ -1,11 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SSPT_Calculator.Models;
+using SSPT_Calculator.Services;
 
 
 namespace SSPT_Calculator.Controllers
 {
     public class MenuController : Controller
     {
+        IVessel _vessel;
+        public MenuController(IVessel vessel) //dependency injection
+        {
+            _vessel = vessel;
+        }
         public IActionResult EnterTestInfo()
         {
             return View();
