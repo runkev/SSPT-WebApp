@@ -16,5 +16,20 @@ html {
 
 body {
     margin-bottom: 60px;
+    width: 100%;
     
+}
+
+form {
+    justify-content: center;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto;
+    align-items: baseline;
+    
+
+}
+
+.sailingcriteria{
+    grid-column-start: 4;
 }

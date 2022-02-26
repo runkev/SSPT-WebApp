@@ -7,10 +7,14 @@ namespace SSPT_Calculator.Controllers
 {
     public class MenuController : Controller
     {
-        IVessel _vessel;
-        public MenuController(IVessel vessel) //dependency injection
+        //IVessel _vessel;
+        //public MenuController(IVessel vessel) //dependency injection
+        //{
+        //    _vessel = vessel;
+        //}
+        public IActionResult Applicability()
         {
-            _vessel = vessel;
+            return View();
         }
         public IActionResult EnterTestInfo()
         {

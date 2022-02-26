@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Applicability";
+}
+
+<h1>Applicability</h1>
+
+<h3>Ensure the vessel meets all criteria before proceeding:</h3>
+
+<form>
+    <p class="formcenter">Yes</p>
+    <p class="formcenter">No</p>
+    <p class="formcenter">N/A</p>
+    <p class="formcenter">Criteria</p>
+    <input type="radio" id="yes" name="F" value="yes" class="formcenter"/>
+    <input type="radio" id="no" name="F" value="no" class="formcenter"/>
+    <input type="radio" id="notappl" name="F" value="n/a" class="formcenter"/>
+    <label for="checkF">Vessel's length is not more than 65 feet</label>
+
+    <input type="radio" id="yes" name="G" value="yes"/>
+    <input type="radio" id="no" name="G" value="no"/>
+    <input type="radio" id="notappl" name="G" value="n/a"/>
+    <label for="checkG">Does not exceed 12 passengers on an international voyage</label>
+
+    <input type="radio" id="yes" name="H" value="yes"/>
+    <input type="radio" id="no" name="H" value="no"/>
+    <input type="radio" id="notappl" name="H" value="n/a"/>
+    <label for="checkH">Not have more than 1 deck above the bulkhead deck or deck from which freeboard is measured</label>
+
+    <input type="radio" id="yes" name="I" value="yes"/>
+    <input type="radio" id="no" name="I" value="no"/>
+    <input type="radio" id="notappl" name="I" value="n/a"/>
+    <label for="checkI">OCMI has not questioned the vessel's stability</label>
+
+    <input type="radio" id="yes" name="J" value="yes"/>
+    <input type="radio" id="no" name="J" value="no"/>
+    <input type="radio" id="notappl" name="J" value="n/a"/>
+    <label for="checkJ">Tumblehome, if any, measured at amidship is less than 2% of the beam</label>
+
+    <input type="radio" id="yes" name="K" value="yes"/>
+    <input type="radio" id="no" name="K" value="no"/>
+    <input type="radio" id="notappl" name="K" value="n/a"/>
+    <label for="checkK">The vessel is either a monohull, or a non-sailing flush deck catamaran</label>
+
+    <input type="radio" id="yes" name="L" value="yes"/>
+    <input type="radio" id="no" name="L" value="no"/>
+    <input type="radio" id="notappl" name="L" value="n/a"/>
+    <label for="checkL">If a catamaran, passengers carried does not exceed 49</label>
+
+    <input type="radio" id="yes" name="M" value="yes"/>
+    <input type="radio" id="no" name="M" value="no"/>
+    <input type="radio" id="notappl" name="M" value="n/a"/>
+    <label for="checkM">Operates on protected waters (for cockpit/well deck vessels with deck</label>
+
+    <input type="radio" id="yes" name="N" value="yes"/>
+    <input type="radio" id="no" name="N" value="no"/>
+    <input type="radio" id="notappl" name="N" value="n/a"/>
+
+        <label  for="checkN">Monohull sailing vessel meets the following:</label>
+            <ul class="sailingcriteria">
+                <li>does not operate on exposed waters</li>
+                <li>daylight operations only</li>
+                <li>vessel is of usual type/rig/hull form</li>
+                <li>fitted with a weathertight deck</li>
+                <li>number of passengers does not exceed 49</li>
+                <li>combined total number of sailing school students/instructors does not exceed 6</li>
+                <li>downflooding angle is greater than 60 degrees</li>
+                <li>cockpit length / Length over Deck does not exeed 20%</li>
+                <li>self-bailing cockpit if equipped and on partially protected waters</li>
+            </ul>
+
+</form>
+
+<p id="text">Simplified Stability Test: APPLICABLE</p>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

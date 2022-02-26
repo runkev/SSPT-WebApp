@@ -1,0 +1,153 @@
+﻿@model SSPT_Calculator.Models.TestInfo
+
+@{
+    ViewData["Title"] = "TestWeightInfo";
+}
+
+<h1>TestWeightInfo</h1>
+
+<h4>TestInfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="TestWeightInfo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="weight" class="control-label"></label>
+                <input asp-for="weight" class="form-control" />
+                <span asp-validation-for="weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pax" class="control-label"></label>
+                <input asp-for="pax" class="form-control" />
+                <span asp-validation-for="pax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxWeight" class="control-label"></label>
+                <input asp-for="paxWeight" class="form-control" />
+                <span asp-validation-for="paxWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="crew" class="control-label"></label>
+                <input asp-for="crew" class="form-control" />
+                <span asp-validation-for="crew" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="crewWeight" class="control-label"></label>
+                <input asp-for="crewWeight" class="form-control" />
+                <span asp-validation-for="crewWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="routeCOI" class="control-label"></label>
+                <input asp-for="routeCOI" class="form-control" />
+                <span asp-validation-for="routeCOI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="routeStability" class="control-label"></label>
+                <input asp-for="routeStability" class="form-control" />
+                <span asp-validation-for="routeStability" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxStand" class="control-label"></label>
+                <input asp-for="paxStand" class="form-control" />
+                <span asp-validation-for="paxStand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxSit" class="control-label"></label>
+                <input asp-for="paxSit" class="form-control" />
+                <span asp-validation-for="paxSit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="vcgr" class="control-label"></label>
+                <input asp-for="vcgr" class="form-control" />
+                <span asp-validation-for="vcgr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="decks" class="control-label"></label>
+                <input asp-for="decks" class="form-control" />
+                <span asp-validation-for="decks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="paxUpper" class="control-label"></label>
+                <input asp-for="paxUpper" class="form-control" />
+                <span asp-validation-for="paxUpper" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="upCheck" class="control-label"></label>
+                <input asp-for="upCheck" class="form-control" />
+                <span asp-validation-for="upCheck" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="weightUpper" class="control-label"></label>
+                <input asp-for="weightUpper" class="form-control" />
+                <span asp-validation-for="weightUpper" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="weightMain" class="control-label"></label>
+                <input asp-for="weightMain" class="form-control" />
+                <span asp-validation-for="weightMain" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="loa" class="control-label"></label>
+                <input asp-for="loa" class="form-control" />
+                <span asp-validation-for="loa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lr" class="control-label"></label>
+                <input asp-for="lr" class="form-control" />
+                <span asp-validation-for="lr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fb" class="control-label"></label>
+                <input asp-for="fb" class="form-control" />
+                <span asp-validation-for="fb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fs" class="control-label"></label>
+                <input asp-for="fs" class="form-control" />
+                <span asp-validation-for="fs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bf" class="control-label"></label>
+                <input asp-for="bf" class="form-control" />
+                <span asp-validation-for="bf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="b" class="control-label"></label>
+                <input asp-for="b" class="form-control" />
+                <span asp-validation-for="b" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bp" class="control-label"></label>
+                <input asp-for="bp" class="form-control" />
+                <span asp-validation-for="bp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="f" class="control-label"></label>
+                <input asp-for="f" class="form-control" />
+                <span asp-validation-for="f" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fg" class="control-label"></label>
+                <input asp-for="fg" class="form-control" />
+                <span asp-validation-for="fg" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="d" class="control-label"></label>
+                <input asp-for="d" class="form-control" />
+                <span asp-validation-for="d" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

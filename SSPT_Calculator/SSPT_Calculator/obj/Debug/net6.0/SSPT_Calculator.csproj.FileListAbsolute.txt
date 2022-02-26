@@ -5,7 +5,6 @@ C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\SSPT_Calculator.deps.json
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\SSPT_Calculator.runtimeconfig.json
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\SSPT_Calculator.dll
-C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\ref\SSPT_Calculator.dll
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\SSPT_Calculator.pdb
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\obj\Debug\net6.0\SSPT_Calculator.csproj.AssemblyReference.cache
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\obj\Debug\net6.0\SSPT_Calculator.GeneratedMSBuildEditorConfig.editorconfig
@@ -230,3 +229,4 @@ C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\obj\Debug\net6.0\SSPT_Calculator.csproj.CopyComplete
+C:\Users\kpeto\source\repos\SSPTWebApp\SSPT_Calculator\SSPT_Calculator\obj\Debug\net6.0\refint\SSPT_Calculator.dll
